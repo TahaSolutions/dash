@@ -3,7 +3,6 @@
 FROM ubuntu:xenial
 
 RUN apt-get update && \
-    apt-get -y install  && \
     apt-get install -y software-properties-common build-essential python3-pip  nano && \
     apt-get clean
 
